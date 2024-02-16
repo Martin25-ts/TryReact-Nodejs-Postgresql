@@ -1,0 +1,55 @@
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+@import 'primeflex/primeflex.css';
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#root{
+    width: 100%;
+    padding: 20px;
+}
+
+
+.income-outcome{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.income, .outcome{
+    width: 49%;
+    background-color: #FAF9F6;
+    border-radius: 24px;
+    box-shadow: 0px 10px 19px -7px rgba(59,59,59,0.83);
+    -webkit-box-shadow: 0px 10px 19px -7px rgba(59,59,59,0.83);
+    -moz-box-shadow: 0px 10px 19px -7px rgba(59,59,59,0.83);
+}
+
+.income .p-card-body .p-card-content,
+.outcome .p-card-body .p-card-content{
+    display: flex;
+    justify-content: center;
+
+}
+
+.income .p-card-body,
+.outcome .p-card-body{
+    text-align: center;
+}
+
+.income-history,
+.outcome-history{
+    box-shadow: 0px 10px 19px -7px rgba(59,59,59,0.83);
+    -webkit-box-shadow: 0px 10px 19px -7px rgba(59,59,59,0.83);
+    -moz-box-shadow: 0px 10px 19px -7px rgba(59,59,59,0.83);
+}
